@@ -1,4 +1,4 @@
-xOBJECTS= main.o draw.o display.o matrix.o parser.o
+OBJECTS= main.o draw.o display.o matrix.o parser.o
 CFLAGS= -Wall
 LDFLAGS= -lm
 CC= gcc
@@ -25,4 +25,4 @@ parser.o: parser.c parser.h matrix.h draw.h display.h ml6.h
 	$(CC) $(CFLAGS) -c parser.c
 
 clean:
-	rm *.o *~
+	rm -f *.o *~ main *.png

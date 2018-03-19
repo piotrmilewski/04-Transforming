@@ -154,6 +154,13 @@ void parse_file ( char * filename,
       draw_lines(edges, s, c);
       save_extension(s, line);
     }
+    //quit
+    else if (strncmp(line, "quit", strlen(line)) == 0){
+      exit(0);
+    }
+    else{
+      printf("Invalid argument\n");
+    }
   }
 }
   
