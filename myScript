@@ -1,0 +1,85 @@
+line
+0 0 0 30 0 0
+line
+30 0 0 30 0 30
+line
+30 0 30 0 0 30
+line
+0 0 30 0 0 0
+line
+0 0 0 0 100 0
+line
+0 0 30 0 100 30
+line
+0 100 0 0 100 30
+line
+30 0 0 30 50 0
+line
+30 0 30 30 50 30
+line
+30 50 0 30 50 30
+line
+30 50 30 60 50 30
+line
+30 50 0 60 50 0
+line
+60 50 30 60 50 0
+line
+60 50 30 60 100 30
+line
+60 50 0 60 100 0
+line
+60 100 0 60 100 30
+line
+0 100 0 60 100 0
+line
+0 100 30 60 100 30
+line
+20 60 0 50 60 0
+line
+20 60 30 50 60 30
+line
+50 60 0 50 60 30
+line
+20 60 0 20 60 30
+line
+20 60 0 20 90 0
+line
+20 60 30 20 90 30
+line
+20 90 0 20 90 30
+line
+20 90 0 50 90 0
+line
+20 90 30 50 90 30
+line
+50 90 0 50 90 30
+line
+50 60 0 50 90 0
+line
+50 60 30 50 90 30
+line
+50 90 0 50 90 30
+display
+ident
+scale
+3 3 3
+apply
+display
+ident
+move
+20 175 0
+apply
+display
+ident
+rotate
+z 340
+rotate
+x 20
+rotate
+y 20
+apply
+display
+save
+transform.png
+quit
