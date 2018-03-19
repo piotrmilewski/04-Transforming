@@ -3,7 +3,7 @@ CFLAGS= -Wall
 LDFLAGS= -lm
 CC= gcc
 
-run: main
+run: all
 	./main script
 
 all: $(OBJECTS)
